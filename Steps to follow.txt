@@ -1,0 +1,62 @@
+SPRING BOOT BACKEND APPLICATION (Backend)
+
+-----------------------------------
+	STEPS TO BE FOLLOWED
+-----------------------------------
+
+Step 1: Generate file from "spring initalizr".
+
+Step 2: Make 3 packages named: model, controller and repository (4th - exception)
+
+Step 3: make components
+@Entity
+@id
+@Generatedvalue
+
+Step 4: Generate Getter and Setter inside model package
+
+Step 5: Make Interface in Repository Package
+and then extend it with JPA package.
+
+Step 6: Add @RestController in Controller class
+
+Step 7: Give @Autowired and make private repo object
+
+Step 8: @Postmapping
+
+Step 9: @RequestBody
+
+Step 10: @GetMapping
+<properties>
+		<java.version>17</java.version>
+		<maven.compiler.source>16</maven.compiler.source>
+		<maven.compiler.target>16</maven.compiler.target>
+</properties>
+
+
+
+REACT JS (Frontend)
+
+------------------------------------
+	STEPS TO BE FOLLOWED
+------------------------------------
+
+Step 1: In src make 3 folders: components, HomePage and CRUD
+
+Step 2: In each folder make files.
+
+In components: Navbar.js
+In Home: Home.js
+In CRUD: add.js, view.js and edit.js
+
+Step 3: In Navbar write rfc.
+
+Step 4: npm i bootstrap run this command in terminal
+
+Step 5: In app.js import the node modules:
+import "../node_modules/bootstrap/dist/bootstrap.min.css";
+
+Step 6: 
+npm install react-bootstrap bootstrap
+npm i bootstrap
+npm install axios
